@@ -7,7 +7,7 @@
 
 <!-- Neon Cyber Terminal Typing Effect -->
 <a href="https://rktechsolution.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=900&color=00F5D4&center=true&vCenter=true&width=780&lines=%5B+%5D+Offensive+Web+Security%2C+VAPT+%26+Static+APK+Hardening;%5B+%5D+Bare-Metal+32-Bit+OS+Kernel+%26+C%2B%2B20+WAL+Storage+Engine;%5B+%5D+Zero-API+Computer+Vision+HUD+%26+K6+High-Load+Infrastructure;%5B+%5D+Full-Stack+Edge+Web+Platforms+%26+Production+Android+APKs" alt="Cyber Terminal" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=15&pause=900&color=00F5D4&center=true&vCenter=true&width=640&lines=%5B+%5D+Offensive+Web+Security%2C+VAPT+%26+Static+APK+Hardening;%5B+%5D+Bare-Metal+32-Bit+OS+Kernel+%26+C%2B%2B20+WAL+Storage+Engine;%5B+%5D+Zero-API+Computer+Vision+HUD+%26+K6+High-Load+Infrastructure;%5B+%5D+Full-Stack+Edge+Web+Platforms+%26+Production+Android+APKs" alt="Cyber Terminal" />
 </a>
 
 <br/>
@@ -103,8 +103,7 @@
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=rameshwarkharade001-byte&show_icons=true&bg_color=050816&title_color=00f5d4&text_color=cbd5e1&icon_color=38bdf8&border_color=1e293b" height="165" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rameshwarkharade001-byte&layout=compact&bg_color=050816&title_color=c084fc&text_color=cbd5e1&border_color=1e293b" height="165" alt="Top Languages" />
+<img src="./cyber-3d-stats.svg" width="100%" alt="3D Cyber & Systems Telemetry" />
 
 <br/><br/>
 
