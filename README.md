@@ -44,9 +44,9 @@
     <td width="50%" valign="top">
       <h4>🔐 Cyber Defense &amp; Security Tooling</h4>
       <ul>
-        <li><b><a href="https://rktechsolution.vercel.app">RK Tech Solutions</a></b> — Enterprise Web Security Audits (SQLi/XSS/Auth), Android APK Binary Hardening &amp; Custom Engineering Storefront.</li>
-        <li><b><a href="https://github.com/rameshwarkharade001-byte/rk-tech-store">RK Tech Store</a></b> — Direct-from-engineer security &amp; automation storefront with instant UPI &amp; WhatsApp workflow.</li>
-        <li><b>Security Research Lab</b> — Local Nmap port reconnaissance, OWASP vulnerability exploitation labs &amp; static APK manifest/secret extraction.</li>
+        <li><b>APK Static Binary &amp; Manifest Inspector</b> — Deep inspection of <code>AndroidManifest.xml</code>, <code>.dex</code> bytecode, and <code>.so</code> native libraries for hardcoded secrets &amp; reverse-engineering defense.</li>
+        <li><b>Network &amp; Port Recon Lab</b> — Automated Nmap service enumeration, firewall probing, and attack-surface mapping in Linux/Termux environments.</li>
+        <li><b>OWASP Web VAPT &amp; Exploitation Lab</b> — Hands-on testing suite for SQL Injection, XSS, authentication bypass, and HTTP security header hardening.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -67,8 +67,9 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🚀 Live Full-Stack &amp; Android Applications</h4>
+      <h4>🚀 Live Full-Stack &amp; Agency Platforms</h4>
       <ul>
+        <li><b><a href="https://rktechsolution.vercel.app">RK Tech Solutions</a></b> (<a href="https://rktechsolution.vercel.app">Live Storefront ↗</a>) — Official digital engineering agency platform for custom web apps, Android APKs, and AI automation.</li>
         <li><b><a href="https://github.com/rameshwarkharade001-byte/kids-tone-pro">Kids Tone PRO</a></b> (<a href="https://kids-tone-pro.vercel.app">Live App ↗</a>) — Edge-cached streaming web platform &amp; Android APK featuring Touch-Lock player, Draw Pad &amp; Web Audio Piano.</li>
         <li><b><a href="https://github.com/rameshwarkharade001-byte/Calculator-pro">CalcForge Pro</a></b> — Offline precision scientific utility compiled directly into a standalone Android APK.</li>
       </ul>
