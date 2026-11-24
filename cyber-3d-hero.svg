@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" width="100%">
+  <defs>
+    <linearGradient id="cyberBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="shieldTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="shieldLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="shieldRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Space Cyber Frame -->
+  <rect width="920" height="340" rx="22" fill="url(#cyberBg)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- 3D Perspective Floor Grid -->
+  <g stroke="#0ea5e9" stroke-width="0.8" opacity="0.22">
+    <line x1="0" y1="240" x2="920" y2="240"/>
+    <line x1="0" y1="270" x2="920" y2="270"/>
+    <line x1="0" y1="305" x2="920" y2="305"/>
+    <line x1="160" y1="210" x2="40" y2="340"/>
+    <line x1="310" y1="210" x2="240" y2="340"/>
+    <line x1="460" y1="210" x2="460" y2="340"/>
+    <line x1="610" y1="210" x2="680" y2="340"/>
+    <line x1="760" y1="210" x2="880" y2="340"/>
+  </g>
+
+  <!-- Left 3D Isometric Cyber Core Cube -->
+  <g transform="translate(155, 165)" filter="url(#neonGlow)">
+    <polygon points="0,-68 78,-30 0,8 -78,-30" fill="url(#shieldTop)" opacity="0.95"/>
+    <polygon points="-78,-30 0,8 0,92 -78,54" fill="url(#shieldLeft)" opacity="0.92"/>
+    <polygon points="0,8 78,-30 78,54 0,92" fill="url(#shieldRight)" opacity="0.92"/>
+    <!-- Floating Top Cap -->
+    <polygon points="0,-92 48,-69 0,-46 -48,-69" fill="#38bdf8" opacity="0.65">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+    <text x="0" y="-26" fill="#020617" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">ZERO-TRUST</text>
+  </g>
+
+  <!-- Holographic Data Beam -->
+  <line x1="245" y1="165" x2="315" y2="165" stroke="#00f5d4" stroke-width="2.5" stroke-dasharray="6,6">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Right Cyber Terminal HUD Panel -->
+  <g transform="translate(325, 48)">
+    <rect width="550" height="238" rx="14" fill="#0b1120" fill-opacity="0.88" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <!-- Window Dots -->
+    <circle cx="22" cy="20" r="5" fill="#ef4444"/>
+    <circle cx="38" cy="20" r="5" fill="#f59e0b"/>
+    <circle cx="54" cy="20" r="5" fill="#10b981"/>
+    <text x="455" y="24" fill="#64748b" font-family="monospace" font-size="11" text-anchor="end">root@rk-cyber-core:~#</text>
+    <line x1="0" y1="36" x2="550" y2="36" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Identity & Title -->
+    <text x="24" y="72" fill="#00f5d4" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="2">OFFENSIVE SECURITY • KERNEL &amp; SYSTEMS ARCHITECT</text>
+    <text x="24" y="108" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" letter-spacing="0.5">RAMESHWAR KHARADE</text>
+    <text x="24" y="136" fill="#94a3b8" font-family="monospace" font-size="13">Founder @ RK Tech Solutions | Low-Level C++ • APK Security • Edge AI</text>
+
+    <!-- 3D Status Pills -->
+    <rect x="24" y="158" width="155" height="28" rx="6" fill="#0ea5e9" fill-opacity="0.16" stroke="#0ea5e9" stroke-opacity="0.5"/>
+    <text x="101" y="176" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">🛡️ PENTEST &amp; VAPT</text>
+
+    <rect x="190" y="158" width="165" height="28" rx="6" fill="#8b5cf6" fill-opacity="0.16" stroke="#8b5cf6" stroke-opacity="0.5"/>
+    <text x="272" y="176" fill="#c084fc" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">⚙️ OS &amp; WAL ENGINE</text>
+
+    <rect x="366" y="158" width="160" height="28" rx="6" fill="#10b981" fill-opacity="0.16" stroke="#10b981" stroke-opacity="0.5"/>
+    <text x="446" y="176" fill="#34d399" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">🚀 FULL-STACK PROD</text>
+
+    <!-- Live Scan Line -->
+    <text x="24" y="216" fill="#34d399" font-family="monospace" font-size="12">$ status --check: ALL SYSTEMS OPERATIONAL • MAHARASHTRA, IN</text>
+  </g>
+</svg>
